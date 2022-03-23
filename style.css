@@ -1,0 +1,22 @@
+body, * {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+header {
+	background: dodgerblue;
+	padding: 5px;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+	text-decoration: underline;
+}
+
+table {
+	align: center;
+	width: 50%;
+	margin: auto;
+}
