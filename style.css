@@ -6,17 +6,60 @@ body, * {
 
 header {
 	background: dodgerblue;
-	padding: 5px;
+	padding: 10px;
+	width: 100%;
+	color: white;
 }
 
+footer {
+	background: dodgerblue;
+	width: 100%;
+	padding: 10px;
+	color: white;
+}
 h2 {
 	padding: 0;
 	margin: 0;
 	text-decoration: underline;
 }
 
+h4 {
+	padding: 50px 0 0 0;
+}
+
 table {
 	align: center;
-	width: 50%;
 	margin: auto;
+	padding: 0 0 50px 0;
+}
+
+.project {
+	width: 200px;
+}
+
+.complete {
+	color: #37c87d;
+}
+
+.upcoming {
+	color: #b8b8b8;
+}
+
+.notStarted {
+	color: #d50101;
+}
+
+.planning {
+	color: #f5ab0a;
+}
+
+.ready {
+	color: #c403c4;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	line-height: 1;
 }
