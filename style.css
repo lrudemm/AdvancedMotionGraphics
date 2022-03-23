@@ -20,7 +20,6 @@ footer {
 h2 {
 	padding: 0;
 	margin: 0;
-	text-decoration: underline;
 }
 
 h4 {
@@ -62,4 +61,12 @@ ul {
 	padding: 0;
 	text-align: left;
 	line-height: 1;
+}
+
+.headTitle {
+	border: 1 solid white;
+}
+hr {
+	width: 70%;
+	margin: auto;
 }
