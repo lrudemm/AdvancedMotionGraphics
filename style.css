@@ -1,7 +1,7 @@
 body, * {
 	padding: 0;
 	margin: 0;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 header {
@@ -9,6 +9,7 @@ header {
 	padding: 10px;
 	width: 100%;
 	color: white;
+	text-align: center;
 }
 
 footer {
@@ -20,10 +21,12 @@ footer {
 h2 {
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 
 h4 {
 	padding: 50px 0 0 0;
+	text-align: center;
 }
 
 table {
@@ -36,31 +39,20 @@ table {
 	width: 200px;
 }
 
-.complete {
+.graded {
+	color: #303030;
+}
+.ready {
 	color: #37c87d;
+	font-weight: bold;
 }
 
 .upcoming {
 	color: #b8b8b8;
 }
 
-.notStarted {
-	color: #d50101;
-}
-
-.planning {
-	color: #f5ab0a;
-}
-
-.ready {
-	color: #c403c4;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	line-height: 1;
+.inProgress {
+	color: #6CB5FC;
 }
 
 .headTitle {
@@ -69,4 +61,32 @@ ul {
 hr {
 	width: 70%;
 	margin: auto;
+}
+
+video {
+	margin: 25px;
+}
+
+button {
+	margin: 25px;
+}
+
+.description {
+	width: 50%;
+	margin: auto;
+}
+
+a {
+	color: dodgerblue;	
+}
+a:hover {
+	color: #6507f2;
+}
+
+.foot {
+	width: 500px;
+	margin: auto;
+	padding: 0;
+	line-height: .1;
+	text-align: center;
 }
