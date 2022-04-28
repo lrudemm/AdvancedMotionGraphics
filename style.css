@@ -2,6 +2,8 @@ body, * {
 	padding: 0;
 	margin: 0;
 	text-align: center;
+	background: ;
+	
 }
 
 /*────────────────── 
@@ -31,7 +33,10 @@ footer {
 	width: 100%;
 	padding: 10px;
 	color: white;
+	position: absolute;
+	bottom: 0;
 }
+
 
 
 
@@ -107,7 +112,7 @@ a {
 	color: dodgerblue;	
 }
 a:hover {
-	color: #6507f2;
+	color: #9dccfb;
 }
 
 .foot {
